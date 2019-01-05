@@ -122,7 +122,7 @@ class Lautfm {
     }
 
     /**
-     * get a list of stations by category
+     * get a list of stations
      *
      * @example
      * let filter = {
@@ -222,11 +222,13 @@ class Lautfm {
       return this._queryApi('teaser');
     }
 
-    get station_sections() {
+    get station_sections()
+    {
       return STATION_SECTIONS;
     }
 
-    get stations_by() {
+    get stations_by()
+    {
       return STATIONS_BY;
     }
 }
