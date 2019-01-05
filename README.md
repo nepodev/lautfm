@@ -2,6 +2,12 @@
 
 Nodejs module for Webservice [laut.fm API](http://api.laut.fm)
 
+## Install
+
+```
+npm install lautfm
+```
+
 ## Usage
 
 ```javascript
