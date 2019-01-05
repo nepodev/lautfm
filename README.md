@@ -2,6 +2,11 @@
 
 Nodejs module for Webservice [laut.fm API](http://api.laut.fm)
 
+Details about the API
+
+* <http://api.laut.fm/doc>
+* <http://api.laut.fm/documentation/search>
+
 ## Install
 
 ```
@@ -32,8 +37,8 @@ laut.searchStations({query: 'ska', limit: 2})
 * `getStationNames()` The names of all stations.
 * `getListeners()` The listeners of all stations.
 * `getTeaser()` The image sizes are 240x100, 220x220 and 720x300 pixels
+* `searchStations(<params>[, list])` Search stations <http://api.laut.fm/documentation/search>
 
 ## Properties
 * `station_sectons` List of available sections for getStation()
 * `stations_by` List of available types for getStations({by: {station_by}...})
-
