@@ -1,6 +1,6 @@
 {
   "name": "lautfm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodejs module for laut.fm API (http://api.laut.fm)",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "lautfm",
     "webradio",
-    "internet radio",
+    "internetradio",
     "api",
     "nodejs"
   ],
