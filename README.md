@@ -40,5 +40,20 @@ laut.searchStations({query: 'ska', limit: 2})
 * `searchStations(<params>[, list])` Search stations <http://api.laut.fm/documentation/search>
 
 ## Properties
-* `station_sectons` List of available sections for getStation()
-* `stations_by` List of available types for getStations({by: {station_by}...})
+* `station_sections` List of available sections for getStation()
+* `stations_by` List of available types for getStations({by: {type}...})
+
+## Example
+
+Get all stations starting with letter e
+
+```javascript
+let filter = {
+  by: 'letter', // filter by letter
+  term: 'e'     // stationname starting with 'e'
+}
+laut.getStations(filter)
+  .then(data => console.log(data))
+  .catch(err => console.error(err))
+```
+Result will be a Object like [this](http://api.laut.fm/stations/letter/e)
