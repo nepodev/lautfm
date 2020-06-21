@@ -36,7 +36,6 @@ laut.searchStations({query: 'ska', limit: 2})
 * `getLetters()` All available starting-letters of the stations.
 * `getStationNames()` The names of all stations.
 * `getListeners()` The listeners of all stations.
-* `getTeaser()` The image sizes are 240x100, 220x220 and 720x300 pixels
 * `searchStations(<params>[, list])` Search stations <http://api.laut.fm/documentation/search>
 
 ## Properties

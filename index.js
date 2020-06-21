@@ -212,16 +212,6 @@ class Lautfm {
       return this._queryApi('listeners');
     }
 
-    /**
-     * The image sizes are 240x100, 220x220 and 720x300 pixels
-     *
-     * @returns {promise}
-     */
-    getTeaser()
-    {
-      return this._queryApi('teaser');
-    }
-
     get station_sections()
     {
       return STATION_SECTIONS;
