@@ -42,6 +42,30 @@ laut.searchStations({query: 'ska', limit: 2})
 * `station_sections` List of available sections for getStation()
 * `stations_by` List of available types for getStations({by: {type}...})
 
+## section
+
+Values used as section parameters in `getStatus()`.
+
+| section      | Description |
+| ------------ | ----------- |
+| current_song | The currently playing song of a single station. |
+| last_songs   | The 10 last songs of a single station. |
+| listeners    | The listener count of a single station. |
+| next_artists | Next artists of a single station. Information may be inacurate or plainly wrong right before a playlist or schedule change. |
+| playlists    | The schedule of a single station grouped by playlists. |
+| schedule     | The schedule of a single station. |
+
+## Station by types
+
+Values used as 'by' in filter object used in `getStations()`
+
+| type    | Description |
+| ------- | ----------- |
+| genre   | All stations of a certain genre. |
+| letter  | All stations beginning with the certain letter. |
+| live    | A list of all stations sending live at the moment. |
+| numbers | All stations beginning with a number. |
+
 ## Example
 
 Get all stations starting with letter e
