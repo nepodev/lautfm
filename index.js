@@ -12,11 +12,11 @@ const PARAM_NAMES = {
 
 const STATION_SECTIONS = Object.freeze([
     'current_song',
-    'last_song',
+    'last_songs',
     'schedule',
     'playlists',
     'listeners',
-    'next_artist'
+    'next_artists'
 ]);
 
 const STATIONS_BY = Object.freeze([
