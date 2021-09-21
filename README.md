@@ -44,7 +44,7 @@ laut.searchStations({query: 'ska', limit: 2})
 
 ## section
 
-Values used as section parameters in `getStatus()`.
+Values used as section parameters in `getStation(<name>[, section])`.
 
 | section      | Description |
 | ------------ | ----------- |
